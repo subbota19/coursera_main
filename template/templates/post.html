@@ -1,3 +1,5 @@
+{% extends 'echo.html' %}
 {% csrf_token %}
 {% block content %}
+    post {{ form }}
 {% endblock %}
